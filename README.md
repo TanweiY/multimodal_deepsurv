@@ -1,1 +1,2 @@
 # multimodal_deepsurv
+This study used Deepsurv to train a multimodal deep learning survival model based on clinical variables and epigenomewide DNA methylation data. The clinical variables (age, sex, TNM stage) were first trained using Cox proportional hazard model, and then the prognostic index (PI_clinicial) was constructed for each patients. Next, the PI_clinicals was integrated into the loss function and training process of the Deepsurv model training the genomewide DNA methylation data. 
